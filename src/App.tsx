@@ -1,17 +1,18 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/electron-vite.animate.svg";
-import { twMerge } from "tailwind-merge";
+import React from "react";
+import { app, Menu } from "electron";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Welcomescreen from "./screens/Welcomescreen.tsx";
+import Homepage from "./screens/Home/Homepage.tsx";
 
 function App() {
-  const [count, setCount] = useState(0);
-  const [openNDC, setOpenNDC] = useState<boolean>(false);
 
   return (
-    <>
-      <Welcomescreen />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Welcomescreen />} />
+        <Route path="/home" element={<Homepage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
