@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState } from "react";
 import CheckoutImage from "../assets/checkoutImage.png";
-import { ipcRenderer } from "electron";
+// import { ipcRenderer } from "electron";
 import { useNavigate } from "react-router-dom";
 
 
@@ -8,10 +8,10 @@ import { useNavigate } from "react-router-dom";
 // import { FieldError, UseFormRegister } from "react-hook-form";
 // import { twMerge } from "tailwind-merge";
 
-type FormData = {
-  username: string;
-  password: string
-}
+// type FormData = {
+//   username: string;
+//   password: string
+// }
 
 export default function Welcomescreen() {
   const navigate = useNavigate();
@@ -31,7 +31,6 @@ export default function Welcomescreen() {
     } else {
       alert("you have to fill in your username and password")
     }
-
   };
 
   return (

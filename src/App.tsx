@@ -1,5 +1,5 @@
-import React from "react";
-import { app, Menu } from "electron";
+// import React from "react";
+// import { app, Menu } from "electron";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Welcomescreen from "./screens/Welcomescreen.tsx";
 import Homepage from "./screens/Home/Homepage.tsx";
