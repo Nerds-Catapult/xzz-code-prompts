@@ -1,5 +1,9 @@
 import React, { useState, useEffect } from "react";
 import CheckoutImage from "../assets/checkoutImage.png";
+import { ipcRenderer } from "electron";
+import { useNavigate } from "react-router-dom";
+
+
 
 // import { FieldError, UseFormRegister } from "react-hook-form";
 // import { twMerge } from "tailwind-merge";
@@ -10,6 +14,7 @@ type FormData = {
 }
 
 export default function Welcomescreen() {
+  const navigate = useNavigate();
 
   const [username, setUsername] = useState<string>("");
   const [password, setPassword] = useState<string>("");
@@ -22,6 +27,7 @@ export default function Welcomescreen() {
       })
       setPassword("");
       setUsername("");
+      navigate("/home")
     } else {
       alert("you have to fill in your username and password")
     }
@@ -59,6 +65,7 @@ export default function Welcomescreen() {
               onClick={loginUser}
               className="bg-[#2D57EB] p-2 h-14 w-40 text-white rounded hover:bg-[#6D88E7] active:bg-[#2E3242]"
             >
+              {/* <a href="/home">log in</a> */}
               log in
             </button>
           </div>
