@@ -5,7 +5,6 @@ import { useNavigate } from "react-router-dom";
 export default function Homepage() {
   const navigate = useNavigate();
 
-
   const stockHistory = [
     {
       "timestamp": "2024-01-18",
@@ -77,12 +76,7 @@ export default function Homepage() {
           </div>
 
           <div className="w-full h-full flex flex-row space-x-2 p-2">
-            <div className="w-[60%] h-full bg-gray-100 rounded flex items-center justify-center">
-              <h1 className="text-gray-400 animate-pulse">No data ...</h1>
-            </div>
-            <div className="w-[60%] h-full bg-gray-100 rounded flex items-center justify-center">
-              <h1 className="text-gray-400 animate-pulse">No data ...</h1>
-            </div>
+            <h1 className="text-gray-400 animate-pulse">No data ...</h1>
           </div>
 
         </div>
