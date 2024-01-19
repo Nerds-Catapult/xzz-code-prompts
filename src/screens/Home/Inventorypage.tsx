@@ -1,9 +1,10 @@
-// import React from 'react'
+import React from 'react'
 import { useNavigate } from "react-router-dom";
 
 
 export default function Homepage() {
   const navigate = useNavigate();
+  const containerRef = React.useRef();
 
   const stockHistory = [
     {
@@ -48,20 +49,43 @@ export default function Homepage() {
     }
   ]
 
+  function downloadHistoryData() {
+
+    const scale = 10;
+    const container = containerRef.current;
+
+    if (container) {
+      console.log("Downloading")
+    } else {
+
+    }
+
+  }
+
   return (
     <>
       <div className="flex flex-row w-screen h-screen bg-gray-100 font-primary">
-        <div className="w-[20%] h-full bg-gray-100 flex flex-col justify-between p-4">
-          <div className="w-full flex flex-col space-y-4">
-            <button onClick={() => navigate("/home")} className="p-2 h-12 bg-gray-200 font-semibold rounded">New Stock</button>
-            <button onClick={() => navigate("/inventory")} className="p-2 h-12 bg-gray-200 font-semibold rounded">Inventory</button>
+        <div className="h-full bg-gray-100 flex flex-col items-center justify-between p-4">
+          <div className="w-full flex flex-col space-y-4 items-center">
+            <button onClick={() => navigate("/home")} className="p-2 w-20 h-20 bg-gray-200 font-semibold rounded"></button>
+            <button onClick={() => navigate("/home")} className="p-2 w-20 h-20 bg-gray-200 font-semibold rounded"></button>
+            <button onClick={() => navigate("/home")} className="p-2 w-20 h-20 bg-gray-200 font-semibold rounded"></button>
+            <button onClick={() => navigate("/home")} className="p-2 w-20 h-20 bg-gray-200 font-semibold rounded"></button>
+            <button onClick={() => navigate("/home")} className="p-2 w-20 h-20 bg-gray-200 font-semibold rounded"></button>
+            <button onClick={() => navigate("/home")} className="p-2 w-20 h-20 bg-gray-200 font-semibold rounded"></button>
           </div>
-          <button className="bg-red-600 p-2 h-12 rounded text-white font-bold">log out</button>
+          <button onClick={() => navigate("/home")} className="p-2 w-20 h-20 bg-red-600 font-semibold rounded"></button>
         </div>
-        <div className="w-[60%] h-full bg-gray-200 p-4 space-y-2">
-          <div className="w-full h-20 flex items-center justify-center ">
-            <input className="h-12 p-2 rounded-l pl-4 w-80" type="text" placeholder="search for product(s)" />
-            <button className="bg-black h-12 p-2 text-white w-20 rounded-r" type="submit">search</button>
+        <div className="w-full h-full bg-gray-200 p-4 space-y-2">
+          <div className="w-full h-20 flex items-center justify-between ">
+            <div className='flex flex-col'>
+              <h1 className='font-bold'>Super Market Name</h1>
+              <h1>Admin Name</h1>
+            </div>
+            <div className="flex flex-row">
+              <input className="h-12 p-2 rounded-l pl-4 w-80" type="text" placeholder="search for product(s)" />
+              <button className="bg-black h-12 p-2 text-white w-20 rounded-r" type="submit">search</button>
+            </div>
           </div>
           <div className="w-full overflow-x-auto">
             <div className="flex space-x-4 overflow-hidden">
@@ -75,12 +99,16 @@ export default function Homepage() {
             </div>
           </div>
 
-          <div className="w-full h-full flex flex-row space-x-2 p-2">
-            <h1 className="text-gray-400 animate-pulse">No data ...</h1>
+          <div className="h-[88%] flex flex-col items-center space-x-2 space-y-2 p-4">
+            <div className='w-full flex flex-row items-center justify-between'>
+              <div className='rounded w-[49.5%] h-80 bg-gray-100 animate-pulse flex items-center justify-center text-gray-400 font-light'>No data...</div>
+              <div className='rounded w-[49.5%] h-80 bg-gray-100 animate-pulse flex items-center justify-center text-gray-400 font-light'>No data...</div>
+            </div>
+            <div className="w-full h-full bg-gray-100 rounded animate-pulse flex items-center justify-center text-gray-400 font-light">No data...</div>
           </div>
 
         </div>
-        <div className="w-[20%] h-full bg-gray-100 flex flex-col justify-between p-4">
+        {/* <div className="w-[20%] h-full bg-gray-100 flex flex-col justify-between p-4">
           <div className="w-full flex flex-col space-y-4">
             <h1 className="text-sm font-bold mt-10">Re-stock History</h1>
             {stockHistory.length > 0 && (
@@ -98,7 +126,7 @@ export default function Homepage() {
             <button className="p-2 h-12 border-2 border-[#2D57EB] font-semibold rounded text-[#2D57EB] hover:bg-[#2D57EB] hover:text-white transition duration-300 ease-in-out  active:bg-[#6D88E7]">Export Data</button>
             <button className="p-2 h-12 border-2 border-red-600 font-semibold rounded text-red-600 hover:bg-red-600 hover:text-white transition duration-300 ease-in-out active:bg-[#6D88E7]">Clear History</button>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )
