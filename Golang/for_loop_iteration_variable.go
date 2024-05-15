@@ -20,7 +20,7 @@ func main() {
 	// The goroutines will print: three, three, three
 
 	// Easiest way to solve this is to pass the
-	// variable in the go function
+	// variable in the go function as follows:
 
 	for _, v := range data {
 		go func(v string) { // <- here
