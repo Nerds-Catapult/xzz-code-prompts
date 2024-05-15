@@ -1,0 +1,1 @@
+/home/demontime/Desktop/Rust/http-server/target/debug/http-server: /home/demontime/Desktop/Rust/http-server/src/http/method.rs /home/demontime/Desktop/Rust/http-server/src/http/mod.rs /home/demontime/Desktop/Rust/http-server/src/http/request.rs /home/demontime/Desktop/Rust/http-server/src/main.rs /home/demontime/Desktop/Rust/http-server/src/server.rs
