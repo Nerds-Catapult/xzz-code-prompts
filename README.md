@@ -21,16 +21,7 @@ We encourage and welcome contributions from the community! If you have a useful 
 
 ## Code Categories
 
-The repository is organized into different directories based on programming languages. Here are some of the main categories:
-
-- [JavaScript](javascript/)
-- [Python](python/)
-- [Java](java/)
-- [C++](cpp/)
-- [Go](go/)
-- [Ruby](ruby/)
-- [Shell Scripts](shell/)
-- ...
+The repository is organized into different directories based on programming stacks and inside each stack find the language you are looking for. Here are some of the main categories:
 
 Feel free to explore the directories to find code snippets in your preferred language.
 
