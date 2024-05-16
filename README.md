@@ -29,7 +29,7 @@ The repository is organized into different directories based on tech stacks and 
 ![Static Badge](https://img.shields.io/badge/Golang-Go-brightred) \
 ![Static Badge](https://img.shields.io/badge/Typescript-TS-blue) \
 ![Static Badge](https://img.shields.io/badge/HTML-%3C%2F%3E-purple)\
-![Static Badge](https://img.shields.io/badge/C-C%2B%2B-white)\
+![Static Badge](https://img.shields.io/badge/C-C%2B%2B-white)
 
 Feel free to explore the directories to find code snippets in your preferred language.
 
