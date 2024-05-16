@@ -1,40 +1,38 @@
 # Contributing Guidelines
+___
+Thank you for your interest in contributing to the **"Useful Codes and Scripts"** repository! We appreciate your efforts to make this repository a valuable resource for the community. To ensure a smooth and collaborative experience, please follow these guidelines when contributing.
 
-Thank you for your interest in contributing to the "Useful Codes and Scripts" repository! We appreciate your efforts to make this repository a valuable resource for the community. To ensure a smooth and collaborative experience, please follow these guidelines when contributing.
-
-## How to Contribute
+## How to Contribute?
 
 ### Before contributing, make sure you have read the [Code of Conduct](CODE_OF_CONDUCT.md).
-
 - Also browse through code snippets and scripts to ensure that your contribution is not a duplicate.
-- If you find a duplicate, you can contribute by improving the existing code snippet or script.
+- If you find a duplicate, you may contribute by improving the existing code snippet or script.
 - If you are unsure about whether a code snippet or script is already present, feel free to open an issue to discuss it.
-- submit only proven and tested code snippets or scripts.
-- before pushing your code, please ensure it is parented by the language folder you are pushing to.
-- example, if your code is in Rust, it should be inside a folder within a Rust folder. i.e Rust/my_useful_rust_folder
-
-# Contributing Guidelines
-
-Thank you for your interest in contributing to the "Useful Codes and Scripts" repository! We appreciate your efforts to make this repository a valuable resource for the community. To ensure a smooth and collaborative experience, please follow these guidelines when contributing.
+- Submit only proven and tested code snippets or scripts.
+- Before pushing your code, please ensure it is parented by the language folder you are pushing to.
+- For example, if your code is in Rust, it should be inside a folder within a Rust folder. i.e Rust/my_useful_rust_folder
 
 ## How to Contribute
 
-1. Fork the repository to your own GitHub account.
+1. Fork the repository to your own GitHub account. 
 
 2. Clone the forked repository to your local machine:
-
-![cloning](/public/cloning%20the%20repository.png)
-
-    ```bash
+   ```bash
     git clone https://Nerds-catapult/xzz-code-prompts.git
     ```
+    
+![cloning](/public/cloning%20the%20repository.png)
 
-3. Create a new branch called new branch for your contribution:
-
-```bash
+3. Create a new branch for your contribution:
+   ```bash
    git checkout -b "new branch"
    ```
 ![branching](/public/creating%20a%20new%20branch.png)
+
+To see if you are working in a new branch, run the following command: 
+```bash
+   git branch
+   ```
 
 4. Add your code snippet or script to the appropriate language directory. Make sure to follow the naming conventions and file structure of the repository.
 
@@ -45,8 +43,16 @@ Thank you for your interest in contributing to the "Useful Codes and Scripts" re
 7. If your code snippet or script has any dependencies or requires specific instructions to run, please include them in the file or in a separate README file within the same directory.
 
 8. Commit your changes with a descriptive commit message:
+```bash
+   git add .
+   git commit -m "descriptive commit message"
+   
+   ```
 
 9. Push your changes to your forked repository:
+```bash
+   git push
+   ```
 
 10. Open a pull request from your forked repository to the main repository. Provide a clear title and description for your pull request, explaining the purpose and benefits of your contribution.
 
@@ -66,4 +72,3 @@ Once you have submitted a pull request, the repository maintainers will review y
 By contributing to this repository, you agree that your contributions will be licensed under the [MIT License](LICENSE).
 
 Thank you for your contributions and happy coding!
-````
