@@ -48,6 +48,13 @@ To see if you are working in a new branch, run the following command:
    git commit -m "descriptive commit message"
    
    ```
+   Please see some [Descriptive Commits](https://theodorusclarence.com/blog/mindful-commit-message) here. 
+- feat, for addition or removal of a feature.
+- fix, for squashing bugs
+- chore, for installing npm packages
+- test, for adding test suites
+- refactor, for refactoring code flow but not changing the feature itself
+- style, for styling code structure like spacing, reorder or remove unused imports, etc.
 
 9. Push your changes to your forked repository:
 ```bash
