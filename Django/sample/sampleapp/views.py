@@ -10,6 +10,7 @@ from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.shortcuts import render
 from django.contrib.auth.models import User
+from django.contrib.auth.decorators import login_required
 
 
 def test(request):
@@ -56,6 +57,11 @@ def logout(request):
     return redirect("login")
 
 
+@login_required
+def dashboard(request):
+    pass
+
+
 def send_password_reset_email(request):
 
     user_data = User.objects.get(username="username")
@@ -94,3 +100,7 @@ def mpesa(request):
         )
 
     return render(request, "mpesa.html")
+
+
+def error_404_view(request, exception):
+    return redirect("dashboard")

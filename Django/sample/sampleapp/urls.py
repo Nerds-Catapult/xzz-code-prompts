@@ -1,3 +1,7 @@
+from django.contrib.auth.models import User
+from django.urls import path
+
+from . import views
 from django_otp.admin import OTPAdminSite
 from django_otp.plugins.otp_totp.models import TOTPDevice
 from django_otp.plugins.otp_totp.admin import TOTPDeviceAdmin
@@ -12,8 +16,8 @@ admin_site.register(User)
 admin_site.register(TOTPDevice, TOTPDeviceAdmin)
 urlpatterns = [
     path("register", views.register, name="register"),
-    path("login", views.my_login, name="login"),
-    path("logout", views.my_logout, name="mylogout"),
+    path("login", views.login, name="login"),
+    path("logout", views.logout, name="mylogout"),
     path("", views.dashboard, name="dashboard"),
     path(
         "send-reset-email/",
