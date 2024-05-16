@@ -52,7 +52,7 @@ To see if you are working in a new branch, run the following command:
 
 ```
 
-Please see some [Descriptive Commits](https://theodorusclarence.com/blog/mindful-commit-message) here.
+Please see some [Descriptive Commits](https://theodorusclarence.com/blog/mindful-commit-message) here.\
 _feat, for addition or removal of a feature._ \
 _fix, for squashing bugs_\
 _chore, for installing npm packages_\
