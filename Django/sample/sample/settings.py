@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
+    "livereload",  # https://pypi.org/project/django-livereload/
     "django.contrib.staticfiles",
     "crispy_forms",
     "crispy_bootstrap5",  # makes forms in Django look nice
