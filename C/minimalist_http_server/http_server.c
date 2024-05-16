@@ -5,6 +5,16 @@
 #include <netinet/in.h>
 #include <fcntl.h>
 
+/**
+ * @brief A minimalist HTTP server that sends a file to the client
+ * 
+ * the function creates a socket, binds it to a port, listens for active connections,
+ * accepts connections coming from clients, receives a message from the socket,
+ * and sends a file to the client.
+ *
+ * the function shows how to use basic networking syscalls
+ *
+ */
 void main()
 {
 	int s = socket(AF_INET, SOCK_STREAM, 0);
