@@ -9,6 +9,8 @@ Thank you for your interest in contributing to the "Useful Codes and Scripts" re
 - If you find a duplicate, you can contribute by improving the existing code snippet or script.
 - If you are unsure about whether a code snippet or script is already present, feel free to open an issue to discuss it.
 - submit only proven and tested code snippets or scripts.
+- before pushing your code, please ensure it is parented by the language folder you are pushing to.
+- example, if your code is in Rust, it should be inside a folder within a Rust folder. i.e Rust/my_useful_rust_folder
 
 
 # Contributing Guidelines
