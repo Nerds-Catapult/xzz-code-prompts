@@ -25,11 +25,11 @@ We encourage and welcome contributions from the community! If you have a useful 
 ## Code Categories
 
 The repository is organized into different directories based on tech stacks and inside each stack find the language you are looking for. Here are some of the main categories:
-![Static Badge](https://img.shields.io/badge/python-django-red)
-![Static Badge](https://img.shields.io/badge/Golang-Go-brightred)
-![Static Badge](https://img.shields.io/badge/Typescript-TS-blue)
-![Static Badge](https://img.shields.io/badge/HTML-%3C%2F%3E-purple)
-![Static Badge](https://img.shields.io/badge/C-C%2B%2B-white)
+![Static Badge](https://img.shields.io/badge/python-django-red) \
+![Static Badge](https://img.shields.io/badge/Golang-Go-brightred) \
+![Static Badge](https://img.shields.io/badge/Typescript-TS-blue) \ 
+![Static Badge](https://img.shields.io/badge/HTML-%3C%2F%3E-purple)\
+![Static Badge](https://img.shields.io/badge/C-C%2B%2B-white)\
 
 Feel free to explore the directories to find code snippets in your preferred language.
 
