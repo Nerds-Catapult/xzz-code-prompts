@@ -33,7 +33,7 @@ Thank you for your interest in contributing to the **"Useful Codes and Scripts"*
 To see if you are working in a new branch, run the following command:
 
 ```bash
-   git branch
+git branch
 ```
 
 4. Add your code snippet or script to the appropriate language directory. Make sure to follow the naming conventions and file structure of the repository.
@@ -46,11 +46,10 @@ To see if you are working in a new branch, run the following command:
 
 8. Commit your changes with a descriptive commit message:
 
-```bash
+   ```bash
    git add .
    git commit -m "descriptive commit message"
-
-```
+   ```
 
 Please see some [Descriptive Commits](https://theodorusclarence.com/blog/mindful-commit-message) here.\
 _feat, for addition or removal of a feature._ \
