@@ -1,4 +1,5 @@
-# typescript tsconfigs
+[TypeScript TS](https://www.typescriptlang.org/)  is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
+# Typescript tsconfigs
 
 - collection of typescript tsconfig files based on the node version.
 
