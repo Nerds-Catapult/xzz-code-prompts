@@ -33,6 +33,22 @@ The repository is organized into different directories based on tech stacks and 
 
 Feel free to explore the directories to find code snippets in your preferred language.
 
+The Current Folder Structure is as follows: 
+.
+└── xzz-code-prompts/
+    ├── .github/
+    │   └── pull_request_template
+    ├── C/
+    │   └── minimalist_http_server
+    ├── Golang/
+    │   └── go-closure-capturing-variable
+    ├── Public
+    ├── Typescript/
+    │   └── tsconfig_settings_based_on_version
+    └── Web/
+        ├── Django
+        └── OAuth2.0
+
 ## 4.0 License
 
 The code snippets and scripts in this repository are licensed under the [MIT License](LICENSE). By contributing to this repository, you agree to license your contributions under the same license.
