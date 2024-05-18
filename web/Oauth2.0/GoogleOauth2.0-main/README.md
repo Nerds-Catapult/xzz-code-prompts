@@ -25,6 +25,7 @@ For this example let us name it Google OAuth Example. Make sure to select the pr
 
 In the dashboard, click on **_APIs & Services_** and then **_Dashboard_**.
 Click on the **_+ ENABLE APIS AND SERVICES_** button.
+
 ![Create Credentials](/public/Google%20OAuth%202.0/Enable%20APIs%20and%20services.png)
 Scroll through till you find **_Google+ API_** and enable it.
 ![Create Credentials](/public/Google%20OAuth%202.0/Google+%20API.png)
