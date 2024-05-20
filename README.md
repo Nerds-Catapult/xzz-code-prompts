@@ -1,4 +1,4 @@
-![Banner](public/useful_codes_and_snippets.png)
+![Banner](public/Contributing/useful_codes_and_snippets.png)
 
 # **Useful Codes and Scripts**
 
@@ -24,7 +24,8 @@ We encourage and welcome contributions from the community! If you have a useful 
 
 ## 3.0 Code Categories
 
-The repository is organized into different directories based on tech stacks and inside each stack find the language you are looking for. Here are some of the main categories:
+The repository is organized into different directories based on tech stacks and inside each stack find the language you are looking for. Here are some of the main categories: 
+\
 ![Static Badge](https://img.shields.io/badge/python-django-red) \
 ![Static Badge](https://img.shields.io/badge/Golang-Go-brightred) \
 ![Static Badge](https://img.shields.io/badge/Typescript-TS-blue) \
@@ -33,21 +34,22 @@ The repository is organized into different directories based on tech stacks and 
 
 Feel free to explore the directories to find code snippets in your preferred language.
 
-The Current Folder Structure is as follows: 
-.
-└── xzz-code-prompts/
-    ├── .github/
-    │   └── pull_request_template
-    ├── C/
-    │   └── minimalist_http_server
-    ├── Golang/
-    │   └── go-closure-capturing-variable
-    ├── Public
-    ├── Typescript/
-    │   └── tsconfig_settings_based_on_version
-    └── Web/
-        ├── Django
-        └── OAuth2.0
+The Current Folder Structure is as follows:
+
+```
+└── 📁xzz-code-prompts
+    └── 📁.github
+        └── pull_request_template.md
+    └── 📁C
+        └── 📁minimalist_http_server
+    └── 📁Golang
+        └── 📁go-closure-capturing-variable
+    └── 📁public
+    └── README.md
+    └── 📁typescript
+    └── 📁web
+        └── 📁Django
+```
 
 ## 4.0 License
 
