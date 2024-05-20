@@ -13,6 +13,12 @@ To use the setup script, run the following command in your terminal:
 curl -sS https://raw.githubusercontent.com/jwathika/xzz-code-prompts/master/linux/setup.sh | bash 2> /dev/null
 ```
 
+To run tests:
+
+```
+curl -sS https://raw.githubusercontent.com/jwathika/xzz-code-prompts/master/linux/test.sh | bash 2> /dev/null
+```
+
 # Features
 
 Installs:
