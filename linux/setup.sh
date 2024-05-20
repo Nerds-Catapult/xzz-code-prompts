@@ -114,7 +114,7 @@ print_table_results "Installed pipx" "is_command_available 'pipx'"
 
 # Check and install pipenv
 if ! is_command_available "pipenv"; then
-  sudo apt install -y pipenv
+  sudo apt install pipenv -y
 fi
 print_table_results "Installed pipenv" "is_command_available 'pipenv'"
 

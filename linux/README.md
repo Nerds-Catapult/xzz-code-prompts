@@ -10,18 +10,19 @@ It installs necessary packages like git, pyenv/pipenv/pipx, npm, and nodejs, and
 To use the setup script, run the following command in your terminal:
 
 ```
-curl -sS https://raw.githubusercontent.com/jwathika/moringa_setup/main/setup.sh | bash 2> /dev/null
+curl -sS https://raw.githubusercontent.com/jwathika/xzz-code-prompts/master/linux/setup.sh | bash 2> /dev/null
 ```
 
 # Features
-Installs: 
-- [X] curl
-- [X] git
-- [X] pyenv/pipenv/pipx
-- [X] npm
-- [X] nodejs 
-- [ ] add more installations if need be
 
+Installs:
+
+- [x] curl
+- [x] git
+- [x] pyenv/pipenv/pipx
+- [x] npm
+- [x] nodejs
+- [ ] add more installations if need be
 
 # Prerequisites
 
@@ -33,19 +34,19 @@ Make sure your system meets the following requirements:
 
 # Verify Installation:
 
-```curl --version```
+`curl --version`
 
-```git --version```
+`git --version`
 
-```pyenv --version```
+`pyenv --version`
 
-```npm --version```
+`npm --version`
 
-```node --version```
+`node --version`
 
 # Contributing
 
-If you find any issues or have suggestions for improvements, please feel free to create a pull request or open an issue on the GitHub repository.
+If you find any issues or have suggestions for improvements, please feel free to create a pull request or open an issue on the [Github repository](https://github.com/Nerds-Catapult/xzz-code-prompts)
 
 # License
 
