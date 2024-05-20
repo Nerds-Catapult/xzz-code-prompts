@@ -18,7 +18,10 @@ To run tests:
 ```
 curl -sS https://raw.githubusercontent.com/jwathika/xzz-code-prompts/master/linux/test.sh | bash 2> /dev/null
 ```
+Sample video and pics:
+![sample](image.png)
 
+Watch here => [video link](https://streamable.com/v4lqij)
 # Features
 
 Installs:
