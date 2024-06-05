@@ -6,6 +6,7 @@ Welcome to **The Ultimate Git Messiah** repository, where all your lazy develope
 
 - **Automatic Git Repository Initialization**: Why waste time typing `git init` and `git remote add`? Let the Git Messiah do it for you.
 - **Fork Mode**: Because sometimes you just want to copy someone else's work. This script will fork an existing repository to your account.
+- **Delete Mode**: Made a mistake? Delete a repository with ease. Just be sure you really mean it.
 - **Supports Multiple Platforms**: Whether you’re a fan of GitHub, GitLab, or Bitbucket, this script has got you covered.
 - **Credential Handling**: Because remembering your username and token is just too much work.
 - **Optional README Creation**: Adds a README.md file because, let's be honest, you probably weren't going to do it yourself.
@@ -15,21 +16,24 @@ Welcome to **The Ultimate Git Messiah** repository, where all your lazy develope
 
 1. **Clone the Repository** (Or you can just download it, but who does that?):
     ```sh
-    git clone https://github.com/yourusername/git-messiah.git
     cd git-messiah
+    ```
+2. **Make it executable**
+   ```sh
+    chmod +x git-messiah.sh
     ```
 
 2. **Run the Script**:
     ```sh
-    ./init_git_repo.sh
+    ./git-messiah.sh
     ```
 
 3. **Follow the Prompts**:
+   - Choose your action (create, fork, delete).
    - Enter the repository name (or don't, and see what happens).
    - Select your platform (GitHub, GitLab, or Bitbucket - because choices are hard).
    - Enter your credentials (or not, if you like watching things fail).
-   - Decide if you want to fork an existing repository or create a new one (forking is great for copying someone else's hard work).
-   - Specify the directory where you want the repository to be created (or just accept the default because, you know, effort).
+   - If creating or forking, specify the directory where you want the repository to be created (or just accept the default because, you know, effort).
 
 4. **Marvel at Your Laziness**:
    - Sit back and watch as the script does everything for you.
@@ -38,7 +42,6 @@ Welcome to **The Ultimate Git Messiah** repository, where all your lazy develope
 ## Requirements
 
 - **Git**: Obviously.
-- **A Sense of Humor**: Preferably sarcastic.
 
 ## Disclaimer
 
