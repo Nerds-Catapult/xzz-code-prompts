@@ -170,7 +170,6 @@ else
     # Determine default directory
     if [ "$(uname)" = "Linux" ] || [ "$(uname)" = "Darwin" ] || [ "$(uname)" = "WSL2" ]; then
         default_dir="$HOME"
-
     elif [ "$(uname | grep -E -i 'cygwin|mingw|msys')" ]; then
         default_dir="$USERPROFILE/Documents"
     else
