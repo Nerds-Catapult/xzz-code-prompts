@@ -3,7 +3,7 @@
 Welcome to **The Ultimate Git Messiah** repository, where all your lazy developer dreams come true. Gone are the days of tedious git repository initialization and mundane setup tasks. I, the promised savior of the lazy developer, have graced you with a script to handle it all for you.
 
 ## Features
-
+ ![Git Messiah Features](usage.gif)
 - **Automatic Git Repository Initialization**: Why waste time typing `git init` and `git remote add`? Let the Git Messiah do it for you.
 - **Fork Mode**: Because sometimes you just want to copy someone else's work. This script will fork an existing repository to your account.
 - **Delete Mode**: Made a mistake? Delete a repository with ease. Just be sure you really mean it.
@@ -35,6 +35,8 @@ Welcome to **The Ultimate Git Messiah** repository, where all your lazy develope
    - Select your platform (GitHub, GitLab, or Bitbucket - because choices are hard).
    - Enter your credentials (or not, if you like watching things fail).
    - If creating or forking, specify the directory where you want the repository to be created (or just accept the default because, you know, effort).
+
+
 
 5. **Marvel at Your Laziness**:
    - Sit back and watch as the script does everything for you.
