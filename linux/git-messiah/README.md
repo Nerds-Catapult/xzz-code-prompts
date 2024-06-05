@@ -18,30 +18,39 @@ Welcome to **The Ultimate Git Messiah** repository, where all your lazy develope
     ```sh
     cd git-messiah
     ```
-2. **Make it executable**
-   ```sh
+
+2. **Make the Script Executable**:
+    ```sh
     chmod +x git-messiah.sh
     ```
 
-2. **Run the Script**:
+3. **Run the Script**:
     ```sh
-    ./git-messiah.sh
+    ./init_git_repo.sh
     ```
 
-3. **Follow the Prompts**:
+4. **Follow the Prompts**:
    - Choose your action (create, fork, delete).
    - Enter the repository name (or don't, and see what happens).
    - Select your platform (GitHub, GitLab, or Bitbucket - because choices are hard).
    - Enter your credentials (or not, if you like watching things fail).
    - If creating or forking, specify the directory where you want the repository to be created (or just accept the default because, you know, effort).
 
-4. **Marvel at Your Laziness**:
+5. **Marvel at Your Laziness**:
    - Sit back and watch as the script does everything for you.
    - Take a sip of coffee, you've earned it.
 
 ## Requirements
 
 - **Git**: Obviously.
+- **A Sense of Humor**: Preferably sarcastic.
+
+## A Glorified Shell Script Tutorial
+
+This script is not just a tool, but also a glorified tutorial on how to make REST requests with shell scripts. It demonstrates how to:
+- Interact with REST APIs using `curl`.
+- Handle various HTTP status codes.
+- Use shell scripting to automate mundane tasks.
 
 ## Disclaimer
 
