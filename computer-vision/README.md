@@ -1,4 +1,4 @@
-# computer vision basics eith python and opencv2
+# computer vision basics with python and opencv2
 
 <h3> the snippets are scripts that can be run using</h3>
  the scripts contain code to open webcams and use haar cascades to detect facial features
