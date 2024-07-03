@@ -42,6 +42,11 @@ The Current Folder Structure is as follows:
         └── pull_request_template.md
     └── 📁C
         └── 📁minimalist_http_server
+    └── 📁computer-vision
+        └── 📁eye_detecion.py
+        └── 📁face_detecion.py
+        └── 📁open_webcam.py
+        └── 📁README.md
     └── 📁Golang
         └── 📁go-closure-capturing-variable
     └── 📁public
